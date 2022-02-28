@@ -9,3 +9,40 @@
     align-items: flex-end;
     margin:  0 0 3px 10px;
 }
+.author span:first-child{
+    margin: -7px 5px 0 0;
+}
+ul{
+    margin-left: -12px;
+  
+}
+ul li{
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightblue;
+    transition: 0.4s ease-in-out;
+}
+ul li:hover{
+    color: rgb(13, 188, 241);
+    background-color: rgb(232, 250, 251);
+}
+#quote-btn{
+    padding: 13px 22px;
+    border: none;
+    outline-style: none;
+    color: rgb(27, 160, 248);
+    background-color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: 0.4s ease-in-out;
+}
+#quote-btn:hover{
+    color: white;
+    background-color: rgb(13, 188, 241);
+    
+}

@@ -18,28 +18,28 @@
     <section class="container d-flex justify-content-center align-items-center  heaight">
         <div class="w-50 bg-info rounded-3 p-5">
             <div class="">
-                <h1 class="text-center text-white fs-2 fw-bold">Please Pick Quote</h1>
+                <h1 class="text-center text-white fs-2 fw-bold">Please Pick Your Quote</h1>
                 <div class="my-4 text-white">
                     <div class="quote-area d-flex justify-content-center">
                         <i class="fas fa-quote-left"></i>
-                        <p class="fs-5 text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis numquam modi, necessitatibus animi reprehenderit expedita pariatur voluptas magnam veritatis ipsam.</p>
+                        <p id="show-quote" class="fs-5 text-center ">To make no mistakes is not in the power of man; but from their errors and mistakes the wise and good learn wisdom for the future.</p>
                         <i class="fas fa-quote-right "></i>
                         
                     </div>
-                    <div class="author">
+                    <div class="author d-flex justify-content-end mt-3 fs-6 fst-italic">
                         <span>__</span>
-                        <span>Shaker Ahamed</span>
+                        <span id="show-author"> Plutarch</span>
                     </div>
                 </div>
                 
-                <div class="buttons">
-                    <div class="features">
-                        <ul>
-                            <li class="sound"><i class="fas  fa-volume-up"></i></li>
-                            <li class="copy"><i class="fas fa-copy"> </i></li>
-                            <li class="twitter"><i class="fab fa-twitter"> </i></li>
+                <div class="buttons border-top">
+                    <div class="features d-flex align-items-center  justify-content-between m-3">
+                        <ul class="d-flex text-white mt-2">
+                            <li id="volume" class="sound list-unstyled"><i class="fas  fa-volume-up"></i></li>
+                            <li id="copy" class="copy list-unstyled"><i class="fas fa-copy"> </i></li>
+                            <li id="twitter" class="twitter list-unstyled"><i class="fab fa-twitter"> </i></li>
                         </ul>
-                        <button>New Quote</button>
+                        <button onclick="getResult()" id="quote-btn" class=" border border-none fs-6">New Quote</button>
                     </div>
                 </div>
             </div>
